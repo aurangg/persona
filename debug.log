@@ -1,0 +1,6 @@
+[1227/234136.916:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::PEB<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1227/234137.153:ERROR:process_info.cc(545)] ReadProcessData failed
+[1227/234137.153:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffb707a64d0 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1227/234137.153:WARNING:process_snapshot_win.cc(69)] ReadMemory ExceptionInformation failed
+[1227/234137.153:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0421/150608.090:ERROR:settings.cc(320)] Settings magic is not 1129342067

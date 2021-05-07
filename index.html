@@ -613,13 +613,39 @@
             Check out our frequently asked questions, and if you <br>have any that we didn’t cover reach out via chat or email.
           </p>
         </div>
+        <div class="col-lg-8 offset-lg-2 mt-50">
+          <div class="accordion-head">
+            <button class="accordion">Section 1</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+          <div class="accordion-head">
+            <button class="accordion">Section 1</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+          <div class="accordion-head">
+            <button class="accordion">Section 1</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+          <div class="accordion-head">
+            <button class="accordion">Section 1</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
     
 
 
-    <footer class="footer-area section-padding-90-0">
+    <footer class="footer-area">
         <!-- Top Footer Area -->
         <div class="top-footer-area">
             <div class="container">
@@ -671,7 +697,24 @@
     <!-- Active js -->
     <script src="js/active.js"></script>
 
-
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active-accordion");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+            panel.style.marginTop =  "0px"
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+            panel.style.marginTop =  "30px"
+          } 
+        });
+      }
+      </script>
 
 </body>
 

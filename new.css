@@ -154,7 +154,7 @@
 }
 .section-heading{
     font-family: "Poppins", sans-serif;
-    font-weight: 50px;
+    font-size: 50px;
     color: #1f1f1f;
     text-align: center;
     margin-bottom: 10px;
@@ -226,6 +226,10 @@
     color: #E5E5E5;
     text-align: left;
     font-weight: bold;
+}
+.feature-img img{
+    height: auto;
+    max-width:100%;
 }
 .smart-payment{
     background: #F4F4F4;
@@ -503,4 +507,80 @@
       to {
         height:0.4vh;
       }
+}
+
+
+@media(max-width:420px){
+    .mb-80{
+        margin-bottom:50px !important;
+    }
+    .hero-area .hero-content{
+        font-size: 25px;
+    }
+    .hero-area .hero-para{
+        font-size:14px;
+    }
+    .flex-start, .flex-end{
+        display: block;
+        text-align: center;
+    }
+    .download-btn{
+        margin-bottom: 30px;
+    }
+    .social-proof{
+        margin:0 4px;
+    }
+    .section-padding-90{
+        padding-bottom:60px;
+        padding-top:60px;
+    }
+    .section-heading{
+        font-size: 30px;
+    }
+    .social-proof-paragraph{
+        font-size:16px;
+    }
+    .section-paragraph{
+        font-size: 14px;
+    }
+    .section-padding-90-0{
+        padding-top:60px;
+    }
+    .feature-img{
+        margin-bottom:30px;
+    }
+    .feature-img img{
+        max-width: 40%;
+    }
+    .feature-content .feature-head{
+        font-size:20px;
+        letter-spacing: 0px;
+    }
+    .feature-num{
+        font-size:18px;
+    }
+    .feature-content .feature-desc{
+        font-size:14px;
+    }
+    .smart-payment .smart-payment-description{
+        font-size:16px;
+    }
+    .growing-bar{
+        margin-right:0px;
+    }
+    .section-heading-left{
+        font-size:25px;
+    }
+    .hero-para{
+        font-size:13px;
+    }
+    .wellness .wellness-box{
+        width:100%;
+    }
+    .wellness .wellness-box-heading{
+        font-size:16px;
+    }
+    .wellness .wellness-box-paragraph{
+        font-size:14px;
+    }
 }

@@ -60,6 +60,10 @@
     display: flex;
     justify-content: flex-start;
 }
+.flex-start2{
+    display: flex;
+    justify-content: flex-start;
+}
 .flex-end{
     display: flex;
     justify-content: flex-end;
@@ -90,7 +94,8 @@
     z-index: 2;
     width: 100%;
     height: 85vh;
-    background-attachment: fixed; }
+    background-attachment: fixed;
+    background-image: url(img/hero-section.webp); }
 .hero-area .hero-content {
     font-size: 40px;
     letter-spacing: -1px;
@@ -235,10 +240,11 @@
     max-width:100%;
 }
 .hyper-growth{
-    height:100vh;
+    height:90vh;
 }
 .smart-payment{
-    background: #F4F4F4;
+    background-color: #F4F4F4;
+    background-image: url(img/smart-payment.png);
 }
 .smart-payment .smart-payment-description{
     margin-top:100px;
@@ -261,15 +267,16 @@
     text-align: left;
     color:#1f1f1f;
 }
+.wellness{
+    background-image: url(img/small-business-new.webp);
+}
 .wellness .wellness-box{
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
     -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
     -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
     background-color: white;
     padding:40px 30px;
-    border-radius: 5px;
-    width: max-content;
-    margin-top:50px;
+    border-radius: 5px;    
 }
 .wellness .wellness-box-heading{
     font-size:25px;
@@ -320,6 +327,7 @@
     text-align: center;
     color:#1f1f1f;
     margin-bottom:0px;
+    width:50%;
 }
 .data-and-money{
     background-color: #F4F4F4;
@@ -509,7 +517,7 @@
 }
 .animate-grow{
     /* animation: grow 3s forwards; */
-    animation: up1 3s ease-in;
+    animation: up1 1.5s ease-in;
 }
 .green{
     color:#246511;
@@ -596,6 +604,13 @@
     .margin-top-40{
         margin-top:0px;
     }
+    .download-btn .download-name{
+        font-size:14px;
+    }
+    .hero-area{
+        background-image: url(img/hero-section-bg-phone.webp);
+        height:90vh;
+    }
     .hero-area .hero-content{
         font-size: 25px;
     }
@@ -603,15 +618,28 @@
         font-size:14px;
     }
     .flex-start{
-        display: block;
-        text-align: center;
+        justify-content:center;
+    }
+    .flex-start2{
+        display:block;
+    }
+    .flex-bottom-2{
+        display: flex;
+        align-items: flex-end !important;
+        justify-content: center !important;
     }
     .flex-end{
         display:flex;
         justify-content: center;
     }
+    .flex-space-between{
+        display: block;
+    }
     .download-btn{
         margin-bottom: 30px;
+        margin-right:5px;
+        margin-left:5px;
+        padding:7px 15px;
     }
     .social-proof{
         margin:0 4px;
@@ -635,8 +663,12 @@
     .section-padding-90-0{
         padding-top:60px;
     }
+    .feature-text{
+        margin-top: -20vh;
+    }
     .feature-img{
         margin-bottom:30px;
+        opacity:0.15;
     }
     .feature-img img{
         max-width: 40%;
@@ -651,17 +683,29 @@
     .feature-content .feature-desc{
         font-size:14px;
     }
+    .smart-payment{
+        background-image: url(img/smart-collection-bg-phone.webp);
+    }
     .smart-payment .smart-payment-description{
-        font-size:16px;
+        font-size:14px;
+        width: 80%;
+        margin-top:60px;
+        margin-bottom:30px;
     }
     .growing-bar{
         margin-right:0px;
     }
     .section-heading-left{
         font-size:25px;
+        margin-top:50px;
     }
     .hero-para{
         font-size:13px;
+        width:50%;
+    }
+    .wellness{
+        background-image: url(img/wellness-bg-phone.webp);
+        height:100vh;
     }
     .wellness .wellness-box{
         width:100%;
@@ -672,12 +716,19 @@
     .wellness .wellness-box-paragraph{
         font-size:14px;
     }
+    .compare-box .compare-content{
+        height:25vh;
+    }
+    .compare-box .compare-content .compare-img{
+        margin-bottom:20px;
+    }
     .compare-border .bank-name{
         font-size:15px;
     }
     .compare-box .compare-content .compare-description{
         font-size:13px;
         line-height: 1.2;
+        width: 100%;
     }
     .accordion{
         font-size:16px;

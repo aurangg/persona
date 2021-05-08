@@ -234,6 +234,9 @@
     height: auto;
     max-width:100%;
 }
+.hyper-growth{
+    height:100vh;
+}
 .smart-payment{
     background: #F4F4F4;
 }
@@ -415,6 +418,72 @@
     font-size:16px;
     margin-bottom:0px;
 }
+.box {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    margin: auto;
+    overflow: hidden;
+    top: 0px;
+}
+.graph {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 5%;
+}
+/* .graph:after {
+    content: 'Days';
+    position: absolute;
+    text-align: center;
+    bottom: -25px;
+    margin: auto;
+    left: 0;
+    color: #ba6161;
+    right: 0;
+}
+.graph:before {
+    position: absolute;
+    bottom: 50%;
+    left: -64px;
+    color: #ba6161;
+    transform: rotate(-90deg);
+} */
+.m {
+    background: #c0ffc1;
+    width:100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;    
+}
+@keyframes up1 {
+    0% {
+        height: 0;
+   }
+    100% {
+        height: 100%;
+   }
+}
+.tu {
+    height: 30%;
+    width: calc(100% / 8);
+    background: #ff8484;
+    position: absolute;
+    bottom: 0;
+    left: 14.2857142857%;
+    animation: up2 1s ease-in;
+}
+@keyframes up2 {
+    0% {
+        height: 0;
+   }
+    100% {
+        height: 30%;
+   }
+}
 .slowing-bar{
     background: #FA7272;
     width:100%;
@@ -434,12 +503,13 @@
     margin:0px 20px;
     position:relative;
     transform-origin:top;
-    transform: translate(0%, 0%);
+    transform: translate(0%, 0%) rotate(0deg);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;    
 }
 .animate-grow{
-    animation: grow 3s forwards;
+    /* animation: grow 3s forwards; */
+    animation: up1 3s ease-in;
 }
 .green{
     color:#246511;

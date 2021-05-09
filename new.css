@@ -610,12 +610,18 @@
     .hero-area{
         background-image: url(img/hero-section-bg-phone.webp);
         height:90vh;
+        background-attachment: inherit;
     }
     .hero-area .hero-content{
         font-size: 25px;
     }
     .hero-area .hero-para{
         font-size:14px;
+        width: 100%;
+        margin-bottom:0px;
+    }
+    .mt-40{
+        margin-top:20px !important;
     }
     .flex-start{
         justify-content:center;
@@ -662,6 +668,9 @@
     }
     .section-padding-90-0{
         padding-top:60px;
+    }
+    .section-padding-0-90{
+        padding-bottom:60px;
     }
     .feature-text{
         margin-top: -20vh;
@@ -718,6 +727,7 @@
     }
     .compare-box .compare-content{
         height:25vh;
+        justify-content: normal;
     }
     .compare-box .compare-content .compare-img{
         margin-bottom:20px;

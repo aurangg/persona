@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="Group_1040" data-name="Group 1040" transform="translate(-415 -1111)">
+    <rect id="Rectangle_140" data-name="Rectangle 140" width="80" height="80" transform="translate(415 1111)" fill="#fff" opacity="0.999"/>
+    <path id="Path_422" data-name="Path 422" d="M868.268,1317.506c1.884,2.738,9.188,17.218,27.921,13.859s32.668-12.647,35.663-18.119,5.787-21.509-3.783-27.293-29.252-4.814-38.762-4.774-25.874,5.956-25.473,14.577S866.385,1314.768,868.268,1317.506Z" transform="translate(-446.206 -154.48)" fill="#a0f886" opacity="0.508"/>
+    <g id="fees" transform="translate(419.526 1115.176)">
+      <path id="Path_408" data-name="Path 408" d="M339.514,83.185a6.236,6.236,0,1,0,8.819,0A6.2,6.2,0,0,0,339.514,83.185Zm5.88,5.88a2.079,2.079,0,1,1,0-2.94A2.082,2.082,0,0,1,345.394,89.065Zm0,0" transform="translate(-290.436 -69.975)" fill="#1f1f1f"/>
+      <path id="Path_409" data-name="Path 409" d="M70.092,2.882A2.078,2.078,0,0,0,68.078.866L39.737,0A2.08,2.08,0,0,0,38.2.618L3.214,35.96a11.2,11.2,0,0,0,0,15.709L19.756,68.381a10.962,10.962,0,0,0,15.609,0L70.346,33.038a2.075,2.075,0,0,0,.6-1.524ZM32.41,65.456a6.8,6.8,0,0,1-9.7,0L6.169,48.744a7.03,7.03,0,0,1,0-9.86l34.345-34.7,25.48.776.77,25.786Zm0,0" transform="translate(0 0)" fill="#1f1f1f"/>
+      <text id="_0" data-name="$0" transform="translate(35.473 45.825) rotate(-45)" fill="#1f1f1f" font-size="20" font-family="Poppins-ExtraBold, Poppins" font-weight="800" letter-spacing="-0.03em"><tspan x="-12.88" y="0">$0</tspan></text>
+    </g>
+  </g>
+</svg>

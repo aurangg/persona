@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="536" height="592" viewBox="0 0 536 592">
+  <g id="Group_1076" data-name="Group 1076" transform="translate(-691 -1516)">
+    <rect id="Rectangle_134" data-name="Rectangle 134" width="536" height="592" rx="10" transform="translate(691 1516)" fill="#fff"/>
+    <g id="Group_944" data-name="Group 944" transform="translate(529.959 -1701.195)">
+      <path id="Path_1781" data-name="Path 1781" d="M877.125,1390.1c5.639,8.2,27.5,51.543,83.582,41.487s97.792-37.86,106.758-54.241,17.325-64.389-11.325-81.7-87.567-14.41-116.037-14.292-77.454,17.83-76.255,43.636S871.485,1381.9,877.125,1390.1Z" transform="translate(-540.837 2156.105)" fill="#e5dbc5" opacity="0.5"/>
+      <g id="fees" transform="translate(322.991 3406.103)">
+        <path id="Path_408" data-name="Path 408" d="M340.979,84.648a11.238,11.238,0,1,0,15.893,0A11.165,11.165,0,0,0,340.979,84.648Zm10.6,10.6a3.747,3.747,0,1,1,0-5.3A3.752,3.752,0,0,1,351.575,95.244Zm0,0" transform="translate(-189.021 -39.923)" fill="none" stroke="#1f1f1f" stroke-width="2"/>
+        <path id="Path_409" data-name="Path 409" d="M209.546,8.611a6.214,6.214,0,0,0-6.022-6.026L118.8,0a6.217,6.217,0,0,0-4.6,1.838L9.611,107.5a33.488,33.488,0,0,0,0,46.963l49.452,49.96a32.77,32.77,0,0,0,46.663,0L210.305,98.766a6.2,6.2,0,0,0,1.794-4.557ZM96.892,195.68a20.341,20.341,0,0,1-29,0l-49.45-49.96a21.017,21.017,0,0,1,0-29.476L121.122,12.51,197.3,14.83l2.3,77.088Zm0,0" transform="translate(0 0)" fill="none" stroke="#1f1f1f" stroke-width="2"/>
+        <text id="_0" data-name="$0" transform="translate(104.295 136.296) rotate(-45)" fill="none" stroke="#1f1f1f" stroke-width="2" font-size="52" font-family="Poppins-ExtraBold, Poppins" font-weight="800" letter-spacing="-0.03em"><tspan x="-33.488" y="0">$0</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

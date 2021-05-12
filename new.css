@@ -13,6 +13,9 @@
 .bg-black{
     background-color:#363636 !important;
 }
+.h-35{
+    height:35vh;
+}
 .btn-action{
     background-color: #1f1f1f;
     color:white !important;
@@ -155,7 +158,7 @@ label{
     position: relative;
     z-index: 2;
     width: 100%;
-    height: 85vh;
+    height: 70vh;
     background-attachment: fixed;
     background-image: url(img/about-bg.webp);
     background-color:rgba(31, 31, 31, 0.8)
@@ -238,14 +241,13 @@ label{
 .our-beliefs{
     background-color: #F4F4F4;
 }
-.our-beliefs .our-beliefs-paragraph{
+.our-beliefs .our-beliefs-paragraph, .our-mission-text{
     text-align: left;
     color:#1f1f1f;
     margin-bottom:0px;
     margin-top:45px;
     font-weight: 300;
     font-size: 18px;
-    letter-spacing: -1px;
 }
 .download-btn{
     background-color: #1f1f1f;
@@ -750,10 +752,19 @@ label{
         height:90vh;
         background-attachment: inherit;
     }
+    .h-35{
+        height:40vh;
+    }
     .about-area{
         background-image: url(img/about-bg-phone.png);
-        height:90vh;
+        height:75vh;
         background-attachment: inherit;
+    }
+    .no-margin{
+        margin-bottom:0px !important;
+    }
+    .about-img-data{
+        height:80%;
     }
     .hero-area .hero-content, .about-area .about-content, .feature-area .feature-area-content{
         font-size:25px;
@@ -853,7 +864,7 @@ label{
         margin-top:60px;
         margin-bottom:30px;
     }
-    .our-beliefs .our-beliefs-paragraph{
+    .our-beliefs .our-beliefs-paragraph, .our-mission-text{
         font-size:14px;
         letter-spacing: 0px;
     }

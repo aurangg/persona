@@ -118,6 +118,10 @@
     background-attachment: fixed;
     background-image: url(img/home/hero-section.webp);
 }
+.what-we-offer {
+    position: relative;
+    z-index: 1;
+    background-repeat: repeat; }  
 .contact-area{
     background-color:#fff;
 }
@@ -239,7 +243,7 @@ label{
     text-align: center;
 }
 .hero-area .hero-para{
-    font-size:18px;
+    font-size:13px;
     font-weight: 300;
     color:#1f1f1f;
 }
@@ -417,7 +421,7 @@ label{
 }
 .smart-payment{
     background-color: #F4F4F4;
-    background-image: url(img/common/smart-collection-bg-img.png);
+    background-image: url(img/common/smart-collection-bg-img.webp);
 }
 .smart-payment .smart-payment-description{
     margin-top:100px;
@@ -932,7 +936,7 @@ label{
         font-size:14px;
     }
     .smart-payment{
-        background-image: url(img/common/smart-collection-bg-img-phone.png);
+        background-image: url(img/common/smart-collection-bg-img-phone.webp);
     }
     .smart-payment .smart-payment-description{
         font-size:14px;

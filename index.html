@@ -440,17 +440,6 @@
                 <div class="slowing-bar"></div>
               </div>
             </div>
-            <!-- <img src="img/hyper-saving.png" alt=""> -->
-            <!-- <div class="growing-bar">
-              <div class="bar-content green">
-                <p class="bar-text green">
-                  Hyper Growth <br>Savings Account
-                </p>
-                <h4 class="bar-number green">
-                  200<span class="span-percentage">%</span>
-                </h4>
-              </div>
-            </div> -->
             <div class="box">
               <div class="graph">
                 <div class="m">
@@ -907,35 +896,6 @@
         $window2.trigger('scroll');
       </script>
 
-      <!-- <script>
-        var $animation_element = $('.bar-content');
-        var $window3 = $(window);
-
-        function check_in_view() {
-        var win_height = $window3.height();
-        var win_top_position = $window3.scrollTop();
-        var win_bottom_position = (win_top_position + win_height);
-
-        $.each($animation_element, function() {
-          var $element3 = $(this);
-          var element3_height = $element3.outerHeight();
-          var element3_top_position = $element3.offset().top;
-          var element3_bottom_position = (element3_top_position + element3_height);
-
-          //check to see if this current container is within viewport
-          if ((element3_bottom_position >= win_top_position) &&
-              (element3_top_position <= win_bottom_position)) {
-            $element3.addClass('bar-fade')
-          }
-          else {
-            $element3.removeClass('bar-fade')
-          }
-        });
-        }
-
-        $window3.on('scroll resize', check_in_view);
-        $window3.trigger('scroll');
-      </script> -->
 </body>
 
 </html>

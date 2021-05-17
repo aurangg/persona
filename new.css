@@ -258,11 +258,18 @@ label{
 .our-beliefs{
     background-color: #F4F4F4;
 }
-.our-beliefs .our-beliefs-paragraph, .our-mission-text-2{
+.our-beliefs .our-beliefs-paragraph{
     text-align: left;
     color:#1f1f1f;
     margin-bottom:0px;
     margin-top:45px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.our-mission-text-2{
+    text-align: left;
+    color:#1f1f1f;
+    margin-bottom:0px;
     font-weight: 300;
     font-size: 18px;
 }
@@ -410,7 +417,7 @@ label{
 }
 .smart-payment{
     background-color: #F4F4F4;
-    background-image: url(img/common/smart-payment.webp);
+    background-image: url(img/common/smart-collection-bg-img.png);
 }
 .smart-payment .smart-payment-description{
     margin-top:100px;
@@ -480,7 +487,7 @@ label{
     text-align: center;
     height:20vh;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
 }
@@ -493,7 +500,7 @@ label{
     text-align: center;
     color:#1f1f1f;
     margin-bottom:0px;
-    width:50%;
+    width:70%;
 }
 .data-and-money{
     background-color: #F4F4F4;
@@ -763,6 +770,43 @@ label{
 }
 
 
+@media(min-width:450px) and (max-width:768px){
+    .flex-start{
+        justify-content: center;
+    }
+    .flex-end{
+        justify-content: center;
+    }
+    .margin-top-40{
+        margin-top:0px;
+    }
+    .boxes{
+        margin-bottom:40px;
+    }
+    .boxes .boxes-paragraph{
+        width:50%;
+    }
+    .feature-img{
+        margin-bottom:30px;
+        opacity:0.15;
+    }
+    .feature-text{
+        margin-top:-20vh;
+    }
+    .section-heading{
+        font-size:38px;
+    }
+    .section-heading-left{
+        font-size:35px;
+    }
+    .wellness .wellness-box{
+        width:75%;
+    }
+    .compare-box .compare-content .compare-description{
+        font-size:13px;
+    }
+}
+
 @media(max-width:420px){
     .mb-80{
         margin-bottom:50px !important;
@@ -888,7 +932,7 @@ label{
         font-size:14px;
     }
     .smart-payment{
-        background-image: url(img/common/smart-collection-bg-phone.webp);
+        background-image: url(img/common/smart-collection-bg-img-phone.png);
     }
     .smart-payment .smart-payment-description{
         font-size:14px;
@@ -924,6 +968,9 @@ label{
     .wellness .wellness-box-paragraph{
         font-size:14px;
     }
+    .compare-box{
+        padding:20px;
+    }
     .compare-box .compare-content{
         height:25vh;
         justify-content: normal;
@@ -935,7 +982,7 @@ label{
         font-size:15px;
     }
     .compare-box .compare-content .compare-description{
-        font-size:13px;
+        font-size:12px;
         line-height: 1.2;
         width: 100%;
     }

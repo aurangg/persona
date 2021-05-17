@@ -13,6 +13,9 @@
 .bg-black{
     background-color:#363636 !important;
 }
+.no-margin{
+    margin-bottom:15px !important;
+}
 .h-35{
     height:35vh;
 }
@@ -33,6 +36,7 @@
     height:60px;
     width:280px;
     font-size:16px !important;
+    margin-left:0px;
 }
 .btn-action:hover{
     background-color:white !important;
@@ -109,7 +113,7 @@
     width: 100%;
     height: 85vh;
     background-attachment: fixed;
-    background-image: url(img/hero-section.webp);
+    background-image: url(img/home/hero-section.webp);
 }
 .contact-area{
     background-color:#fff;
@@ -141,10 +145,15 @@ label{
     margin-bottom:15px !important;
     opacity:0.7;
 }
+.h-50{
+    height:50px !important;
+}
 .form-control{
-    height:50px;
     border:1px solid #CCB88C;
     color:#1f1f1f;
+}
+.form-group{
+    margin-bottom:0px !important;
 }
 .form-control::placeholder{
     color:#1f1f1f;
@@ -160,12 +169,17 @@ label{
     width: 100%;
     height: 70vh;
     background-attachment: fixed;
-    background-image: url(img/about-bg.webp);
+    background-image: url(img/about/about-bg.webp);
     background-color:rgba(31, 31, 31, 0.8)
 }
 .feature-area{
-    background-color:#F4F4F4;
-    height:50vh;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 70vh;
+    background-attachment: fixed;
+    background-image: url(img/features/features-bg.webp);
+    background-color:rgba(31, 31, 31, 0.8)
 }
 .feature-box{
     background-color:#F4F4F4;
@@ -218,7 +232,7 @@ label{
     letter-spacing: -1px;
     margin-bottom: 10px;
     font-weight: 700;
-    color: #1F1F1F;
+    color: #fff;
     text-align: center;
 }
 .hero-area .hero-para{
@@ -229,7 +243,7 @@ label{
 .feature-area .feature-area-para{
     font-size:18px;
     font-weight: 300;
-    color:#1f1f1f;
+    color:#fff;
     text-align: center;
 }
 .about-area .about-para{
@@ -241,13 +255,21 @@ label{
 .our-beliefs{
     background-color: #F4F4F4;
 }
-.our-beliefs .our-beliefs-paragraph, .our-mission-text{
+.our-beliefs .our-beliefs-paragraph, .our-mission-text-2{
     text-align: left;
     color:#1f1f1f;
     margin-bottom:0px;
     margin-top:45px;
     font-weight: 300;
     font-size: 18px;
+}
+.our-mission-text{
+    text-align: left;
+    color:#1f1f1f;
+    margin-bottom:0px;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.5;
 }
 .download-btn{
     background-color: #1f1f1f;
@@ -381,10 +403,11 @@ label{
 }
 .hyper-growth{
     height:90vh;
+    background-image: url(img/home/hyper-growth-bg.svg);
 }
 .smart-payment{
     background-color: #F4F4F4;
-    background-image: url(img/smart-payment.png);
+    background-image: url(img/common/smart-payment.webp);
 }
 .smart-payment .smart-payment-description{
     margin-top:100px;
@@ -408,7 +431,7 @@ label{
     color:#1f1f1f;
 }
 .wellness{
-    background-image: url(img/small-business-new.webp);
+    background-image: url(img/home/small-business-new.webp);
 }
 .wellness .wellness-box{
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
@@ -748,7 +771,7 @@ label{
         font-size:14px;
     }
     .hero-area{
-        background-image: url(img/hero-section-bg-phone.webp);
+        background-image: url(img/home/hero-section-bg-phone.webp);
         height:90vh;
         background-attachment: inherit;
     }
@@ -756,9 +779,15 @@ label{
         height:40vh;
     }
     .about-area{
-        background-image: url(img/about-bg-phone.png);
+        background-image: url(img/about/about-bg-phone.webp);
         height:75vh;
         background-attachment: inherit;
+    }
+    .feature-area{
+        background-image: url(img/features/features-bg-phone.webp);
+    }
+    .hyper-growth{
+        background-image: url(img/home/hyper-growth-bg-phone.svg);
     }
     .no-margin{
         margin-bottom:0px !important;
@@ -766,10 +795,10 @@ label{
     .about-img-data{
         height:80%;
     }
-    .hero-area .hero-content, .about-area .about-content, .feature-area .feature-area-content{
+    .hero-area .hero-content, .about-area .about-content, .feature-area .feature-area-content, .contact-area .contact-content{
         font-size:25px;
     }
-    .hero-area .hero-para, .about-area .about-para, .feature-area .feature-area-para{
+    .hero-area .hero-para, .about-area .about-para, .feature-area .feature-area-para, .contact-area .contact-para{
         font-size:14px;
         width: 100%;
         margin-bottom:0px;
@@ -856,7 +885,7 @@ label{
         font-size:14px;
     }
     .smart-payment{
-        background-image: url(img/smart-collection-bg-phone.png);
+        background-image: url(img/common/smart-collection-bg-phone.webp);
     }
     .smart-payment .smart-payment-description{
         font-size:14px;
@@ -864,7 +893,7 @@ label{
         margin-top:60px;
         margin-bottom:30px;
     }
-    .our-beliefs .our-beliefs-paragraph, .our-mission-text{
+    .our-beliefs .our-beliefs-paragraph, .our-mission-text, .our-mission-text-2{
         font-size:14px;
         letter-spacing: 0px;
     }
@@ -880,7 +909,7 @@ label{
         width:50%;
     }
     .wellness{
-        background-image: url(img/wellness-bg-phone.webp);
+        background-image: url(img/home/wellness-bg-phone.webp);
         height:100vh;
     }
     .wellness .wellness-box{
@@ -912,5 +941,17 @@ label{
     }
     .social-media-icons{
         margin-bottom:10px;
+    }
+    .form-group{
+        margin-bottom:20px !important;
+    }
+    label{
+        margin-bottom:8px !important;
+    }
+    .mt-30{
+        margin-top:0px !important;
+    }
+    .mt-60{
+        margin-top:30px !important;
     }
 }

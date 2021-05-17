@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="Group_1063" data-name="Group 1063" transform="translate(-415 -1111)">
+    <rect id="Rectangle_153" data-name="Rectangle 153" width="80" height="80" transform="translate(415 1111)" fill="#fff" opacity="0.999"/>
+    <g id="Group_1062" data-name="Group 1062" transform="translate(1.953 0.307)">
+      <path id="Path_423" data-name="Path 423" d="M868.268,1317.506c1.884,2.738,9.188,17.218,27.921,13.859s32.668-12.647,35.663-18.119,5.787-21.509-3.783-27.293-29.252-4.814-38.762-4.774-25.874,5.956-25.473,14.577S866.385,1314.768,868.268,1317.506Z" transform="translate(-446.206 -155.48)" fill="#ffe5e5"/>
+      <g id="Group_1061" data-name="Group 1061" transform="translate(-4 -7)">
+        <text id="_25" data-name="$25" transform="translate(455 1170)" fill="#1f1f1f" font-size="36" font-family="Poppins-Medium, Poppins" font-weight="500" letter-spacing="-0.03em"><tspan x="-32.508" y="0">$25</tspan></text>
+        <text id="_" data-name="*" transform="translate(488 1153)" fill="#1f1f1f" font-size="15" font-family="Poppins-Medium, Poppins" font-weight="500" letter-spacing="-0.03em"><tspan x="-3.78" y="0">*</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

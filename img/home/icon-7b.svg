@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="Group_1067" data-name="Group 1067" transform="translate(-413 -1103)">
+    <rect id="Rectangle_155" data-name="Rectangle 155" width="80" height="80" transform="translate(413 1103)" fill="#fff" opacity="0.999"/>
+    <g id="Group_1066" data-name="Group 1066" transform="translate(-2.811 0.385)">
+      <path id="Path_423" data-name="Path 423" d="M868.268,1317.506c1.884,2.738,9.188,17.218,27.921,13.859s32.668-12.647,35.663-18.119,5.787-21.509-3.783-27.293-29.252-4.814-38.762-4.774-25.874,5.956-25.473,14.577S866.385,1314.768,868.268,1317.506Z" transform="translate(-446.206 -163.48)" fill="#ffe5e5"/>
+      <g id="_13-transfer" data-name="13-transfer" transform="translate(411.62 1097.77)">
+        <g id="linear_color" data-name="linear color" transform="translate(6 8.001)">
+          <path id="Path_1819" data-name="Path 1819" d="M23.5,290.708a1.5,1.5,0,1,0,0,2.99H52.2a1.5,1.5,0,0,0,0-2.99h-.9V276.8h.9a1.5,1.5,0,0,0,1.5-1.5v-2.243a1.5,1.5,0,0,0-.666-1.244l-14.354-9.569a1.5,1.5,0,0,0-1.659,0l-14.354,9.569A1.5,1.5,0,0,0,22,273.065v2.243a1.5,1.5,0,0,0,1.5,1.5h.9v13.905Zm8.672-13.756H43.531v13.756H32.167Zm14.354,13.756V276.952h1.794v13.756Zm-8.672-25.415,12.78,8.52H25.069Zm-10.466,11.66h1.794v13.756H27.383Z" transform="translate(-19.608 -224.023)" fill="#1f1f1f"/>
+          <path id="Path_1820" data-name="Path 1820" d="M40.987,486H7.5a1.5,1.5,0,0,0,0,2.99H40.987a1.5,1.5,0,1,0,0-2.99Z" transform="translate(-6 -414.53)" fill="#1f1f1f"/>
+          <path id="Path_1823" data-name="Path 1823" d="M292.813,288.941A1.5,1.5,0,0,0,291,290.027a24.727,24.727,0,0,1-17.783,17.964l1.831-3.423a1.5,1.5,0,0,0-2.637-1.411l-3.385,6.328a1.5,1.5,0,0,0,.641,2.038l6.4,3.254a1.5,1.5,0,0,0,1.355-2.666L274.64,310.7A27.79,27.79,0,0,0,293.9,290.756,1.5,1.5,0,0,0,292.813,288.941Z" transform="translate(-229.548 -246.897)" fill="#1f1f1f"/>
+          <path id="Path_1824" data-name="Path 1824" d="M76.437,74.919a1.493,1.493,0,0,0,1.814-1.086A24.728,24.728,0,0,1,96.034,55.869L94.2,59.292A1.5,1.5,0,1,0,96.84,60.7l3.385-6.328a1.5,1.5,0,0,0-.641-2.038l-6.4-3.254a1.5,1.5,0,1,0-1.355,2.666l2.781,1.414A27.79,27.79,0,0,0,75.352,73.1,1.5,1.5,0,0,0,76.437,74.919Z" transform="translate(-64.944 -42.802)" fill="#1f1f1f"/>
+          <text id="_" data-name="?" transform="translate(59.38 36.23)" fill="#1f1f1f" font-size="32" font-family="Poppins-SemiBold, Poppins" font-weight="600" letter-spacing="-0.03em"><tspan x="-8.608" y="0">?</tspan></text>
+          <text id="_2" data-name="?" transform="translate(48.38 20.23)" fill="#1f1f1f" font-size="20" font-family="Poppins-SemiBold, Poppins" font-weight="600" letter-spacing="-0.03em" opacity="0.356"><tspan x="-5.38" y="0">?</tspan></text>
+          <text id="_3" data-name="?" transform="translate(71.38 40.23)" fill="#1f1f1f" font-size="20" font-family="Poppins-SemiBold, Poppins" font-weight="600" letter-spacing="-0.03em" opacity="0.356"><tspan x="-5.38" y="0">?</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

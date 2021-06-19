@@ -13,6 +13,10 @@
 .width-50{
     width: 50%;
 }
+.h-60{
+    height:60vh;
+    display: none;
+}
 .bg-black{
     background-color:#363636 !important;
 }
@@ -292,6 +296,32 @@ label{
     font-weight: 300;
     font-size: 30px;
     line-height: 1.5;
+}
+.schedule-main{
+    text-align: left;
+    color:#1f1f1f;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom:40px;
+}
+.schedule-extra{
+    text-align: left;
+    color:#1f1f1f;
+    margin-bottom:0px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.schedule-process{
+    height:50vh;
+}
+.schedule-process .scheduling-images{
+    width:auto;
+    height:100%;
+}
+.main-img-m{
+    height:100%;
 }
 .download-btn{
     background-color: #1f1f1f;
@@ -1083,5 +1113,19 @@ label{
     }
     .mt-60{
         margin-top:30px !important;
+    }
+    .blog-content .blog-small-text{
+        width:250px;
+        max-height:150px;
+    }
+    .main-img{
+        display: none;
+    }
+    .h-60{
+        display:flex;
+    }
+    .main-img-m{
+        width:auto;
+        height:100%;
     }
 }

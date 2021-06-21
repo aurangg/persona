@@ -1017,23 +1017,25 @@ label{
     }
     .about-area{
         background-image: url(img/about/about-bg-phone.webp);
-        height:75vh;
+        height:40vh;
         background-attachment: inherit;
+        background-position: top;
     }
     .scheduling-area{
         background-image: url(img/scheduling/bg-3-m.webp);
         background-attachment: inherit;
         background-size: cover;
-        height:60vh;
+        height:40vh;
     }
     .blog-area{
         background-image: url(img/blogs/bg-1-m.webp);
         background-attachment: inherit;
         background-size: cover;
-        height:60vh;
+        height:40vh;
     }
     .feature-area{
         background-image: url(img/features/features-bg-phone.webp);
+        height:40vh;
     }
     .hyper-growth{
         background-image: url(img/home/hyper-growth-bg-phone.svg);

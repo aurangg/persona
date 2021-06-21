@@ -336,6 +336,7 @@ label{
 }
 .main-img-m{
     height:100%;
+    display:none;
 }
 .download-btn{
     background-color: #1f1f1f;
@@ -1162,6 +1163,7 @@ label{
     .main-img-m{
         width:auto;
         height:100%;
+        display:block;
     }
     .schedule-main{
         font-size:20px;

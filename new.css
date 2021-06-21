@@ -128,7 +128,8 @@
     width: 100%;
     height: 85vh;
     background-attachment: fixed;
-    background-image: url(img/home/hero-section.webp);
+    /* background-image: url(img/home/hero-section.webp); */
+    background-image: url(img/home/heroSection.png);
 }
 .what-we-offer {
     position: relative;
@@ -191,6 +192,29 @@ label{
     background-image: url(img/about/about-bg.webp);
     background-color:rgba(31, 31, 31, 0.8)
 }
+.scheduling-area {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 40vh;
+    background-attachment: fixed;
+    background-image: url(img/scheduling/bg-3.png);
+    background-color:rgba(31, 31, 31, 0.8)
+}
+.scheduling-area .scheduling-content{
+    font-size: 50px;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFF;
+}
+.scheduling-area .scheduling-para{
+    font-size:18px;
+    text-align: center;
+    font-weight: 300;
+    color:#fff;
+}
 .feature-area{
     position: relative;
     z-index: 2;
@@ -198,6 +222,15 @@ label{
     height: 40vh;
     background-attachment: fixed;
     background-image: url(img/features/features-bg.webp);
+    background-color:rgba(31, 31, 31, 0.8)
+}
+.blog-area{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 40vh;
+    background-attachment: fixed;
+    background-image: url(img/blogs/bg-1.png);
     background-color:rgba(31, 31, 31, 0.8)
 }
 .feature-box{
@@ -247,6 +280,14 @@ label{
     text-align: left;
 }
 .feature-area .feature-area-content {
+    font-size: 50px;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+.blog-area .blog-content-main {
     font-size: 50px;
     letter-spacing: -1px;
     margin-bottom: 10px;
@@ -964,7 +1005,8 @@ label{
         font-size:14px;
     }
     .hero-area{
-        background-image: url(img/home/hero-section-bg-phone.webp);
+        /* background-image: url(img/home/hero-section-bg-phone.webp); */
+        background-image: url(img/home/heroSection-m.png);
         height:90vh;
         background-attachment: inherit;
     }
@@ -973,6 +1015,11 @@ label{
     }
     .about-area{
         background-image: url(img/about/about-bg-phone.webp);
+        height:75vh;
+        background-attachment: inherit;
+    }
+    .scheduling-area{
+        background-image: url(img/scheduling/bg-3.png);
         height:75vh;
         background-attachment: inherit;
     }
@@ -988,10 +1035,10 @@ label{
     .about-img-data{
         height:80%;
     }
-    .hero-area .hero-content, .about-area .about-content, .feature-area .feature-area-content, .contact-area .contact-content{
+    .hero-area .hero-content, .about-area .about-content, .feature-area .feature-area-content, .contact-area .contact-content, .scheduling-area .scheduling-content, .blog-area .blog-content-main{
         font-size:25px;
     }
-    .hero-area .hero-para, .about-area .about-para, .feature-area .feature-area-para, .contact-area .contact-para{
+    .hero-area .hero-para, .about-area .about-para, .feature-area .feature-area-para, .contact-area .contact-para, .scheduling-area .scheduling-para{
         font-size:14px;
         width: 100%;
         margin-bottom:0px;

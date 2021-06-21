@@ -34,6 +34,11 @@ p {
   line-height: 1.8;
   font-weight: 400; }
 
+a:hover{
+  text-decoration: none;
+  color:inherit;
+}
+
 /* a,
 a:hover,
 a:focus {

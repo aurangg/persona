@@ -1018,8 +1018,6 @@ label{
     .about-area{
         background-image: url(img/about/about-bg-phone.webp);
         height:40vh;
-        background-attachment: inherit;
-        background-position: top;
     }
     .scheduling-area{
         background-image: url(img/scheduling/schedule-bg-m.webp);
